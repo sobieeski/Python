@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "pwzn2024-live"
+version = "0.1.0"
+description = ""
+authors = ["Maciej J. Mrowinski <47922372+brokenpumpernickel@users.noreply.github.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tqdm = "^4.66.5"
+rich = "^13.9.2"
+ascii-graph = "^1.5.1"
+pillow = "^11.0.0"
+matplotlib = "^3.9.2"
+numpy = ">=1.22,<2.1"
+numba = "^0.60.0"
+jupyterlab = "^4.3.0"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+selenium = "^4.27.1"
+scipy = "^1.14.1"
+sympy = "^1.13.3"
+bokeh = "^3.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
